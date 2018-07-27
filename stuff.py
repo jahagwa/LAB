@@ -1,2 +1,2 @@
 #!/usr/bin/python3.6
-print('stuff' + 'stuff')
+print('stuff' + 'stuff' + str(42))
