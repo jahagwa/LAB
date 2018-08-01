@@ -1,6 +1,7 @@
 #!/usr/bin/python3.6
-crap = 'crapofdoom'
-print(crap + 'stuff' + str(42))
-print(str(-3.14))
-print(int(-3.14))
-print(float(-3.14))
+print('What is 2 + 2?')
+answer = input()
+if answer == '4':
+    print('That is correct!')
+else:
+    print('That is not correct')
