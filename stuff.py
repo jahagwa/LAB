@@ -1,2 +1,3 @@
 #!/usr/bin/python3.6
-print('stuff' + 'stuff' + str(42))
+crap = 'crapofdoom'
+print(crap + 'stuff' + str(42))
