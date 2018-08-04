@@ -3,9 +3,9 @@
 import sys
 
 print('Give me a basic expression')
-expression = input()
+expression = eval(input())
 print('Give me the answer to the expression')
-answer = input()
+answer = int(input())
 if expression == answer:
     print('Thats right')
     sys.exit()
